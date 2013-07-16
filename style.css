@@ -1,0 +1,60 @@
+body {
+	padding: 0;
+	margin: 0;	
+}
+.purple {
+	background: #86c;
+}
+.green {
+	background: #6c8;
+}
+.orange {
+	background: #c86;
+}
+.pane {
+	width: 100%;
+	font-family: 'Helvetica Neue';
+	box-sizing: border-box;
+	padding: 10px;
+	color: white;	
+	float: left;
+	}	
+	.pane .image {		
+		float: left;
+		background: rgba(50, 50, 50, .7);
+		padding: 30px 60px;
+		}
+		.pane .image h2 {
+			width: 100%;
+			text-align: center;
+			font-size: 40px;
+			margin: 0;
+			margin-bottom: 20px;
+		}	
+		.pane .image.name h1, .pane .image.name h2 {
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			font-size: 28px;
+		}
+		.pane .image.name h1 {
+			font-size: 60px;
+		}
+		.pane .image.name {
+			width: 400px;
+			height: 300px;			
+		}
+		.pane.web .image img {
+			width: 400px;
+		}
+		.pane.iphone .image img {
+			width: 198px;
+		}
+	.pane .info {
+		float: left;
+		width: 300px;
+		font-size: 24px;
+		box-sizing: border-box;
+		padding: 10px;
+		margin-left: 30px;
+	}
