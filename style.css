@@ -44,6 +44,10 @@ body {
 			width: 400px;
 			height: 300px;			
 		}
+		.pane .image.text {
+			width: 400px;
+			height: 200px;
+		}
 		.pane.web .image img {
 			width: 400px;
 		}
