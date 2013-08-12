@@ -2,7 +2,19 @@ body {
 	padding: 0;
 	margin: 0;	
 	background: url(images/triangular.png);
-}
+}	
+a {
+	color: white;
+	text-decoration: none;	
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:before {
+		content: "♦";
+		font-size: .6em;
+		line-height: 1em;
+	}
 .pane:nth-child(3n) {
 	background: #ff5c98;
 }
@@ -84,14 +96,11 @@ body {
 	margin: 0;
 	padding: 20px;
 	padding-top: 0;
-}
-.footer ul li {
-	float: left;
-	margin-right: 20px;
-}
-.footer a {
-	color: blue;
-}
+	}
+	.footer ul li {
+		float: left;
+		margin-right: 20px;
+	}	
 .footer .info p {
 	width: 300px;
 	float: left;
@@ -145,5 +154,8 @@ body {
 	.pane .image, .pane .image.text, .pane .image.name {
 		width: 100%;
 		text-align: center;
+	}
+	a {
+		text-decoration: underline;
 	}
 }
