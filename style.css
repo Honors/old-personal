@@ -71,9 +71,17 @@ body {
 .footer, .header {
 	width: 1000px;
 }	
-.header .info {
+.header .info, .footer .info {
 	width: 700px;
 	height: 260px;
+}
+.footer .info p {
+	width: 300px;
+	float: left;
+}
+.footer ol {
+	margin: 0;
+	padding: 0;
 }
 .header .info p {
 	width: 210px;
