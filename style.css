@@ -1,33 +1,34 @@
 body {
 	padding: 0;
 	margin: 0;	
+	background: url(images/triangular.png);
 }
-.purple {
-	background: #86c;
+.pane:nth-child(3n) {
+	background: #ff5c98;
 }
-.green {
-	background: #6c8;
+.pane:nth-child(3n+1) {
+	background: #5c98ff;
 }
-.orange {
-	background: #c86;
+.pane:nth-child(3n+2) {
+	background: #2eff3c;
 }
 .pane {
-	width: 100%;
+	width: 500px;
 	font-family: 'Helvetica Neue';
 	box-sizing: border-box;
-	padding: 10px;
 	color: white;	
 	float: left;
 	}	
 	.pane .image {		
 		float: left;
 		background: rgba(50, 50, 50, .7);
-		padding: 30px 60px;
+		padding: 10px;
+		box-sizing: border-box;
 		}
 		.pane .image h2 {
 			width: 100%;
 			text-align: center;
-			font-size: 40px;
+			font-size: 25px;
 			margin: 0;
 			margin-bottom: 20px;
 		}	
@@ -35,30 +36,54 @@ body {
 			margin: 0;
 			padding: 0;
 			text-align: center;
-			font-size: 28px;
+			font-size: 22px;
 		}
 		.pane .image.name h1 {
-			font-size: 60px;
+			font-size: 25px;
+		}
+		.pane .image h1 {
+			font-size: 22px;
 		}
 		.pane .image.name {
-			width: 400px;
-			height: 300px;			
+			width: 200px;
 		}
 		.pane .image.text {
-			width: 400px;
-			height: 200px;
+			width: 200px;
 		}
 		.pane.web .image img {
-			width: 400px;
+			width: 200px;
 		}
 		.pane.iphone .image img {
-			width: 198px;
+			width: 98px;
+		}
+		.pane .image h2 {
+			display: none;
 		}
 	.pane .info {
 		float: left;
-		width: 300px;
-		font-size: 24px;
+		width: 250px;
+		height: 200px;
+		font-size: 18px;
 		box-sizing: border-box;
-		padding: 10px;
+		padding-left: 5px;
 		margin-left: 30px;
 	}
+.footer, .header {
+	width: 1000px;
+}	
+.header .info {
+	width: 700px;
+	height: 260px;
+}
+.header .info p {
+	width: 210px;
+	float: left;
+	margin-right: 15px;
+}
+#content {
+	width: 1000px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;	
+	background: #333;
+}
